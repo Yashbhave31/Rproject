@@ -1,4 +1,4 @@
-##India Trade Analytics Hub Pro
+India Trade Analytics Hub Pro
 A professional R Shiny Business Intelligence (BI) Dashboard designed to visualize and analyze India's import and export dynamics from 2010 to 2021. This tool provides macro-economic insights, seasonal trends, and market concentration analysis to help users understand India's position in global trade.
 
 Getting Started
@@ -15,17 +15,12 @@ install.packages(c("shiny", "shinydashboard", "tidyverse", "plotly", "scales"))
 3. File Structure
 For the app to run correctly, ensure the following .csv data files are placed in the same directory as your app.R script:
 
-summary_ready.csv
-
-IndiaImportCommodities_2010_2021.csv
-
-IndiaExportCommodities_2010_2021.csv
-
-import_country_ready.csv
-
-export_country_ready.csv
-
-India_Monthly_Trend_Analysis.csv
+-> summary_ready.csv
+-> IndiaImportCommodities_2010_2021.csv
+-> IndiaExportCommodities_2010_2021.csv
+-> import_country_ready.csv
+-> export_country_ready.csv
+-> India_Monthly_Trend_Analysis.csv
 
 Project Modules & Analysis
 The dashboard is organized into three specialized analytical sections:
